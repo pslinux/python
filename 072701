@@ -1,0 +1,11 @@
+#precise = 3
+print "%.3s " % ("jcodeer")
+#precise = 4
+print "%.*s" % (4,"jcodeer")
+#width = 0,precise = 3
+print "%0.3s" % ("jcodeer")
+#输出结果：
+#jco
+#jcod
+#       jco
+#同于字符串也存在精度、度和。
